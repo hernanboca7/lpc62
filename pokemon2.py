@@ -3,6 +3,12 @@ import requests
 # Nombre: Hernán Bocanegra García
 # Matrícula: 1851986
 #
+# Script en python que consulta el api de pokemon
+# para listar los nombres de pokemon pero se le agrego
+# interacción para que listaras más pokemons segun se vaya requiriendo. 
+# Contribuyo: Hernán Bocanegra García
+# Fecha: 30 de Agosto del 2023
+#
 def get_pokemons (url="http://pokeapi.co/api/v2/pokemon-form/", offset=0):
     args = {"offset":offset} if offset else {}
 
